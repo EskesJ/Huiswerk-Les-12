@@ -3,16 +3,13 @@
   padding: 0;
 }
 /* *******************Selectors met betrekking tot de header en footer.****************** */
-header,
-footer {
-  width: 90%;
-  margin: 30px auto;
-  background-color: SkyBlue;
-}
+
+
 
 header {
   width: 90%;
   margin: 0 auto;
+  background-color: SkyBlue;
 }
 
 h1 {
@@ -25,6 +22,22 @@ h1 {
 .header_container {
   background-color: SkyBlue;
   margin-top: 0%;
+}
+
+footer {
+  background-color: SkyBlue;
+  font-style: italic;
+  height: 100px;
+  position: relative;
+}
+
+footer p {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 2rem;
+  padding-left: 150px;
+  color: Indigo;
 }
 
 /* *******************Einde Selectors met betrekking tot de header.****************** */
